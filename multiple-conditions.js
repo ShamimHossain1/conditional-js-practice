@@ -25,25 +25,26 @@ else {
 
 // Multi stage condition 
 
-var money = 100;
+var money = 200;
 var kacchi = 250;
 var biriyani = 200;
 var pizza = 150;
 var shwarma = 100;
 
-if (money == kacchi) {
+if (money >= kacchi) {
     console.log('Kacchi khabo mama');
 
 }
-else if (money == biriyani) {
+else if (money >= biriyani) {
     console.log('biriyani khabo mama');
 
 }
-else if (money == pizza) {
+else if (money >= pizza) {
     console.log('pizza khabo mama');
 
 }
-else if (money == shwarma) {
+else if (money >= shwarma) {
     console.log('Shwarma e khailam');
 
 }
+else{ console.log('khamu e nah kisu')}
