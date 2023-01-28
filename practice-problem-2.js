@@ -1,4 +1,4 @@
-// -------------------------------Practice Problem 3---------------------------------
+// -------------------------------Practice Problem 2---------------------------------
 
 // 1. You are given three numbers 13, 79, and 45. Write a program that will print the
 // largest number using if-else.
